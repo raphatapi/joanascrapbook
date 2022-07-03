@@ -6,13 +6,12 @@ section {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 100vh;
+    height: calc(100vh - 77.33px);
     width: 100%;
 }
 
 .section {
     display: flex;
-    
 }
 
 .word {
