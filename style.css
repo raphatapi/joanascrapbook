@@ -10,10 +10,6 @@ section {
     width: 100%;
 }
 
-.section {
-    display: flex;
-}
-
 .word {
     margin: auto;
     color: white;
@@ -23,4 +19,13 @@ section {
 
 .joana1 {
     width: 90%;
+}
+
+.ultrasound {
+    width: 90%;
+    height: 43vh!important;
+}
+
+.ultrasound img {
+    height: 100%;
 }
