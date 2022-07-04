@@ -1,11 +1,12 @@
-
-
-section {
+body {
     background: url(./1wallpaper.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+section {
     height: calc(100vh - 77.33px);
     width: 100%;
 }
@@ -26,7 +27,7 @@ section {
 }
 
 .ultrasound {
-    width: 90%;
+    width: 85%;
     height: 43vh!important;
 }
 
