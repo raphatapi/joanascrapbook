@@ -43,4 +43,7 @@ var wordflick = function () {
 
 $(document).ready(function () {
   wordflick();
+
+  ScrollReveal().reveal('.joana1');
+  ScrollReveal().reveal('.ultrasound', { delay: 200 });
 });
