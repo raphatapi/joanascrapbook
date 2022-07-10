@@ -1,3 +1,7 @@
+html.sr .load-hidden {
+    visibility: hidden;
+}
+
 body {
     background: url(./1wallpaper.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
