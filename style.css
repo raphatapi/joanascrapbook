@@ -38,3 +38,15 @@ section {
 .ultrasound img {
     height: 100%;
 }
+
+.carousel {
+    width: 95%;
+    height: 70vh;
+}
+
+.carousel-inner .carousel-item img {  
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+    height:70vh;
+}
