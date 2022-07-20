@@ -1,7 +1,3 @@
-html.sr .load-hidden {
-    visibility: hidden;
-}
-
 body {
     background: url(./1wallpaper.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -22,6 +18,15 @@ section {
     text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
 }
 
+.test {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
+
 .joana1 {
     width: 85%;
 }
@@ -30,13 +35,9 @@ section {
     height: 43vh;
 }
 
-.ultrasound {
+.ultra {
     width: 85%;
-    height: 43vh!important;
-}
-
-.ultrasound img {
-    height: 100%;
+    margin-top: 45px!important;
 }
 
 .itsagirl h1 {

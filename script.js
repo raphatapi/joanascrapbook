@@ -42,6 +42,10 @@ var wordflick = function () {
 };
 
 $(document).ready(function () {
+  // $('.navbar-nav>li>a').on('click', function(){
+  //   $('.navbar-collapse').collapse('hide');
+  // });
+  
   wordflick();
 
   ScrollReveal().reveal('.joana1');

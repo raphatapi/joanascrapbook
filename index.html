@@ -15,73 +15,84 @@
     </script>
 </head>
 <body>
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light" style="background-color: #e6bafa;">
+    <nav class="navbar sticky-top" style="background-color: #e6bafa;">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="./pngwing.com.png" alt="" width="30" height="50" class="d-inline-block align-text-top">
             </a>
             <div class="word"></div>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link" aria-current="page" href="#">Home</a>
-                    <a class="nav-link" href="#ultra">Ultrassom</a>
-                    <a class="nav-link" href="#carousel">Fotos</a>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
-                <!-- <div class="card text-dark bg-light">
-                    <div class="card-body">
-                      <h5 class="card-title">Queridos amigos e familiares:</h5>
-                      <p class="card-text">Este site está em construção e ficará pronto em breve 😘</p>
-                    </div>
-                </div> -->
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#ultrasound">Ultrassom</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#carousel">Fotos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#test">test</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </nav>
-    <section>
+    <section class="test">
         <div class="container-fluid d-flex justify-content-center">
             <div class="row">
                 <div class="col-12">
-                    <div class="card mt-3 mx-auto joana1 load-hidden">
+                    <div class="card my-2 mx-auto joana1">
                         <img src="./joana1.jpeg" class="card-img-top" alt="joana1">
                         <div class="card-body">
-                          <h4 class="card-title">Quando eu cheguei...</h4>
-                          <p class="card-text text-end">... foi uma noite chuvosa de super lua cheia. 14 de junho de 2022 às 18:41. Estavam presentes a mamãe(claro!), o papai, a vovó Fátima e meu big brother Anthony</p>
-                          <p class="card-text">Idade: 37 semanas e 3 dias</br>Peso: 2,630 gramas</br>Tamanho: 41,5 centimetros</p>
+                        <h4 class="card-title">Quando eu cheguei...</h4>
+                        <p class="card-text text-end">... foi uma noite chuvosa de super lua cheia. 14 de junho de 2022 às 18:41. Estavam presentes a mamãe(claro!), o papai, a vovó Fátima e meu big brother Anthony</p>
+                        <p class="card-text">Idade: 37 semanas e 3 dias</br>Peso: 2,630 gramas</br>Tamanho: 41,5 centimetros</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section id="ultra">
+    <section id="ultrasound" class="test">
         <div class="container-fluid d-flex justify-content-center">
-            <div class="row">
-                <div class="col-12">
-                    <div class="card mt-2 mx-auto bg-dark text-white ultrasound load-hidden">
-                        <img src="./ultrasound.jpg" class="card-img" alt="ultrasound">
-                        <div class="card-img-overlay d-flex flex-column justify-content-end">
-                          <h5 class="card-title">Foi Amor à Primeira Vista</h5>
-                          <p class="card-text">Esta foi a primeira vez que meus pais me viram. Eles estavam muito emocionados ❤</p>
+            <div class="row row-cols-1 row-cols-md-2 g-4 ultra">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./ultrasound.jpg" class="card-img" alt="Ultrasound">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                         </div>
                     </div>
-                    <div class="card mt-2 mx-auto bg-dark text-white ultrasound load-hidden">
-                        <img src="./ultrasoundPicaso.jpg" class="card-img" alt="ultrasound">
-                        <div class="card-img-overlay bg-secondary text-white bg-opacity-50">
-                          <h5 class="card-title">Até a última vez que nos vimos ainda na barriga</h5>
-                          <p class="card-text">Não tínhamos ideia de que depois disso nos veríamos pessoalmente</p>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./ultrasoundPicaso.jpg" class="card-img" alt="Picaso">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a short card.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section id="carousel">
+    <section id="carousel" class="test">
         <div class="container-fluid d-flex justify-content-center">
             <div class="row">
                 <div class="col-12">
-                    <div class="mt-2 mx-auto d-flex justify-content-center itsagirl">
+                    <div class="mx-auto d-flex justify-content-center itsagirl">
                         <h1>It's a girl!</h1>
                     </div>
                     <div id="carouselExampleCaptions" class="carousel slide carousel-fade my-3 mx-auto" data-bs-ride="carousel">
