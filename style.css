@@ -40,6 +40,10 @@ section {
     margin-top: 45px!important;
 }
 
+.ultra img {
+    height: 30vh;
+}
+
 .itsagirl h1 {
     font-family: 'Tangerine', serif;
     font-size: 60px;
