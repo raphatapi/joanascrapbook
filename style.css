@@ -11,6 +11,13 @@ section {
     width: 100%;
 }
 
+#divider {
+    text-align:center;
+    padding:70px 0;
+    margin:0 20%;
+    box-shadow: 0 1em 1em -1em rgba(0, 0, 0, .25);
+}
+
 .word {
     margin: auto;
     color: white;

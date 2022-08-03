@@ -49,5 +49,5 @@ $(document).ready(function () {
   wordflick();
 
   ScrollReveal().reveal('.joana1');
-  ScrollReveal().reveal('.ultrasound', { delay: 200 });
+  ScrollReveal().reveal('.ultra', { delay: 200 });
 });
