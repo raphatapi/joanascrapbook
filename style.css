@@ -7,15 +7,9 @@ body {
 }
 
 section {
-    height: calc(100vh - 77.33px);
+    height: 100vh;
     width: 100%;
-}
-
-#divider {
-    text-align:center;
-    padding:70px 0;
-    margin:0 20%;
-    box-shadow: 0 1em 1em -1em rgba(0, 0, 0, .25);
+    padding: 5% 2%;
 }
 
 .word {
@@ -25,30 +19,21 @@ section {
     text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
 }
 
-.test {
-    display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: center;
-	align-items: center;
-	align-content: stretch;
-}
-
 .joana1 {
     width: 85%;
+    height: 100%;
 }
 
 .joana1 img {
-    height: 43vh;
+    height: 45vh;
 }
 
 .ultra {
     width: 85%;
-    margin-top: 45px!important;
 }
 
 .ultra img {
-    height: 33vh;
+    height: 40vh;
 }
 
 .itsagirl h1 {
@@ -60,7 +45,6 @@ section {
 
 .carousel {
     width: 85%;
-    height: 70vh;
 }
 
 .carousel-inner .carousel-item img {  
